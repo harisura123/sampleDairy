@@ -1,0 +1,427 @@
+@media screen and (max-width: 576px){
+.RegimageBackground{
+    display: none;
+}
+
+.RegSmallimageBackground2{
+    display: flex;
+    min-height: 20vh;
+    width: 100vw;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.RegSmallimageBackground1{
+    display: none;
+}
+.RegMainContainer1{
+    background-color: #0b4a11;
+    min-height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegMainContainer2{
+    display: flex;
+}
+
+.RegMainContainer3{
+    background-color: transparent;
+    min-height: 85vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegStartText1{
+    color: #fff;
+    display: none;
+}
+
+.RegStartText2{
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+.RegInput{
+    background-color: #ace693;
+    height: 5vh;
+    width: 70vw;
+    background-size: cover;
+    border:1px solid #ace693;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+.RegBtn{
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 80vw;
+    background-size: cover;
+    border:1px solid yellowgreen;
+    border-radius: 24px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.RegRememberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.RegRememberContainer input{
+    color: red;
+    cursor: pointer;
+}
+
+.RegRememberContainer p{
+    color: #fff;
+}
+.RegMainContainer3 p{
+    color: #fff;
+}
+.RegMainContainer3 p span{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 899px){
+.RegimageBackground{
+    display: none;
+}
+
+.RegSmallimageBackground1{
+    display: flex;
+    min-height: 20vh;
+    width: 100vw;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.RegSmallimageBackground2{
+    display: none;
+}
+.RegMainContainer1{
+    background-color: #0b4a11;
+    min-height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegMainContainer2{
+    display: flex;
+}
+
+.RegMainContainer3{
+    background-color: transparent;
+    min-height: 85vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.RegStartText1{
+    color: #fff;
+    display: none;
+}
+
+.RegStartText2{
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+.RegInput{
+    background-color: #ace693;
+    height: 5vh;
+    width: 70vw;
+    background-size: cover;
+    border:1px solid #ace693;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+.RegBtn{
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 80vw;
+    background-size: cover;
+    border:1px solid yellowgreen;
+    border-radius: 24px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.RegRememberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.RegRememberContainer input{
+    color: red;
+    cursor: pointer;
+}
+
+.RegRememberContainer p{
+    color: #fff;
+}
+.RegMainContainer3 p{
+    color: #fff;
+}
+.RegMainContainer3 p span{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1700px){
+.RegimageBackground{
+    height: 85vh;
+    width: 60vw;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.RegSmallimageBackground1{
+    display: none;
+}
+.RegSmallimageBackground2{
+    display: none;
+}
+
+.RegMainContainer1{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegMainContainer2{
+    background-color: #0b4a11;
+    height: 85vh;
+    width: 90vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.RegMainContainer3{
+    background-color: transparent;
+    height: 85vh;
+    width: 30vw;
+    background-size:cover;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.RegStartText1{
+    color: #fff;
+}
+
+.RegStartText2{
+    color: #fff;
+    display: none;
+}
+
+.RegInput{
+    background-color: #ace693;
+    height: 5vh;
+    width: 25vw;
+    background-size: cover;
+    border:1px solid #ace693;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+.RegBtn{
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 12vw;
+    background-size: cover;
+    border:1px solid yellowgreen;
+    border-radius: 8px;
+    color:#0b4a11;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.RegRememberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.RegRememberContainer input{
+    color: red;
+    cursor: pointer;
+}
+
+.RegRememberContainer p{
+    color: #fff;
+}
+.RegMainContainer3 p{
+    color: #fff;
+}
+.RegMainContainer3 p span{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+}
+@media screen and (min-width: 1701px){
+.RegimageBackground{
+    height: 85vh;
+    width: 60vw;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.RegSmallimageBackground1{
+    display: none;
+}
+.RegSmallimageBackground2{
+    display: none;
+}
+.RegMainContainer1{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegMainContainer2{
+    background-color: #0b4a11;
+    height: 85vh;
+    width: 90vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.RegMainContainer3{
+    background-color: transparent;
+    height: 85vh;
+    width: 30vw;
+    background-size:cover;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.RegStartText1{
+    color: #fff;
+    display: none;
+}
+
+.RegStartText2{
+    color: #fff;
+    display: flex;
+    font-size: 50px;
+}
+.RegInput{
+    background-color: #ace693;
+    height: 5vh;
+    min-width: 20vw;
+    background-size: cover;
+    border:1px solid #ace693;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 30px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.RegBtn{
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 15vw;
+    background-size: cover;
+    border:1px solid yellowgreen;
+    border-radius: 8px;
+    color:#0b4a11;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+.RegRememberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.RegRememberContainer input{
+    cursor: pointer;
+}
+
+.RegRememberContainer p{
+    color: #fff;
+    font-size: 30px;
+}
+.RegMainContainer3 p{
+    color: #fff;
+    font-size: 30px;
+}
+.RegMainContainer3 p span{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+}

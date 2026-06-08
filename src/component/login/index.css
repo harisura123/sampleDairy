@@ -1,0 +1,189 @@
+@media screen and (max-width: 576px){
+.LoginimageBackground{
+    display: none;
+}
+.LoginSmallimageBackground{
+    display: flex;
+    min-height: 30vh;
+    width: 100vw;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.LoginMainContainer1{
+    background-color: #0b4a11;
+    min-height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginMainContainer2{
+    display: flex;
+}
+
+.LoginMainContainer3{
+    background-color: transparent;
+    min-height: 85vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginMainContainer3 h1{
+    color: #fff;
+}
+.LoginInput{
+    background-color: #ace693;
+    height: 5vh;
+    width: 70vw;
+    background-size: cover;
+    border:1px solid #ace693;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+.LoginBtn{
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 80vw;
+    background-size: cover;
+    border:1px solid yellowgreen;
+    border-radius: 24px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.LoginRememberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.LoginRememberContainer input{
+    color: red;
+    cursor: pointer;
+}
+
+.LoginRememberContainer p{
+    color: #fff;
+}
+.LoginMainContainer3 p{
+    color: #fff;
+}
+.LoginMainContainer3 p span{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1700px){
+
+.LoginMainContainer1{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginMainContainer2{
+    background-color: #0b4a11;
+    height: 85vh;
+    width: 90vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LoginMainContainer3{
+    background-color: transparent;
+    height: 85vh;
+    width: 30vw;
+    background-size:cover;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.LoginMainContainer3 h1{
+    color: #fff;
+}
+.LoginInput{
+    background-color: #ace693;
+    height: 5vh;
+    width: 20vw;
+    background-size: cover;
+    border:1px solid #ace693;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+.LoginBtn{
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 8vw;
+    background-size: cover;
+    border:1px solid yellowgreen;
+    border-radius: 8px;
+    color:#0b4a11;
+    font-size: 15px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.RememberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.RememberContainer input{
+    color: red;
+    cursor: pointer;
+}
+
+.RememberContainer p{
+    color: #fff;
+}
+.LoginMainContainer3 p{
+    color: #fff;
+}
+.LoginMainContainer3 p span{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.LoginimageBackground{
+    height: 85vh;
+    width: 60vw;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+}
